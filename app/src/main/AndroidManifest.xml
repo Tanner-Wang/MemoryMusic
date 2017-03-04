@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.memorymusic">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/memory"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RankingActivity"
+            android:label="@string/subject_ranking"/>
+        <activity android:name=".MVActivity"
+            android:label="@string/subject_mv"/>
+        <activity android:name=".MyMusicActivity"
+            android:label="@string/subject_my_music"/>
+        <activity android:name=".SearchActivity"
+            android:label="@string/subject_search"/>
+    </application>
+
+</manifest>

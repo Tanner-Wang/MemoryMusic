@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/all_page_background"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.memorymusic.MVActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/home_activity"
+            style="@style/SubjectBar"
+            android:text="@string/subject_home" />
+
+        <TextView
+            android:id="@+id/ranking_activity"
+            style="@style/SubjectBar"
+            android:text="@string/subject_ranking" />
+
+        <TextView
+            android:id="@+id/mv_activity"
+            style="@style/SubjectBar"
+            android:text="@string/subject_mv" />
+
+        <TextView
+            android:id="@+id/myMusic_activity"
+            style="@style/SubjectBar"
+            android:text="@string/subject_my_music" />
+
+        <ImageButton
+            android:id="@+id/search_activity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_white"
+            android:scaleType="center"
+            android:src="@drawable/search" />
+
+    </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout style="@style/SubTitleLinearLayout">
+
+                <TextView
+                    style="@style/SubTitle"
+                    android:text="@string/recommendation" />
+                <!--part 1 start here-->
+                <LinearLayout
+                    style="@style/SubTitleSmallLinearLayout">
+
+                    <LinearLayout
+                        style="@style/SubTitleSmallSmallLinearLayout"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/sub_linearLayout_imageView_height"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/image14" />
+
+                        <TextView
+                            style="@style/SongNameStyle"
+                            android:text="@string/songName13" />
+
+                        <TextView
+                            style="@style/SingerStyle"
+                            android:text="@string/singer13" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/SubTitleSmallSmallLinearLayout">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/sub_linearLayout_imageView_height"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/image15" />
+
+                        <TextView
+                            style="@style/SongNameStyle"
+                            android:text="@string/songName14" />
+
+                        <TextView
+                            style="@style/SingerStyle"
+                            android:text="@string/singer14" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/SubTitleSmallSmallLinearLayout">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/sub_linearLayout_imageView_height"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/image16" />
+
+                        <TextView
+                            style="@style/SongNameStyle"
+                            android:text="@string/songName15" />
+
+                        <TextView
+                            style="@style/SingerStyle"
+                            android:text="@string/singer15" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!--part 1 end here-->
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/SubTitleLinearLayout">
+
+                <TextView
+                    style="@style/SubTitle"
+                    android:text="@string/up_to_date" />
+                <!--part 1 start here-->
+                <LinearLayout
+                    style="@style/SubTitleSmallLinearLayout">
+
+                    <LinearLayout
+                        style="@style/SubTitleSmallSmallLinearLayout"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/sub_linearLayout_imageView_height"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/image17" />
+
+                        <TextView
+                            style="@style/SongNameStyle"
+                            android:text="@string/songName16" />
+
+                        <TextView
+                            style="@style/SingerStyle"
+                            android:text="@string/singer16" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/SubTitleSmallSmallLinearLayout">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/sub_linearLayout_imageView_height"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/image18" />
+
+                        <TextView
+                            style="@style/SongNameStyle"
+                            android:text="@string/songName17" />
+
+                        <TextView
+                            style="@style/SingerStyle"
+                            android:text="@string/singer17" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/SubTitleSmallSmallLinearLayout">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/sub_linearLayout_imageView_height"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/image19" />
+
+                        <TextView
+                            style="@style/SongNameStyle"
+                            android:text="@string/songName18" />
+
+                        <TextView
+                            style="@style/SingerStyle"
+                            android:text="@string/singer18" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!--part 1 end here-->
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/SubTitleLinearLayout">
+
+                <TextView
+                    style="@style/SubTitle"
+                    android:text="@string/most_popular" />
+                <!--part 1 start here-->
+                <LinearLayout
+                    style="@style/SubTitleSmallLinearLayout">
+
+                    <LinearLayout
+                        style="@style/SubTitleSmallSmallLinearLayout"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/sub_linearLayout_imageView_height"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/image20" />
+
+                        <TextView
+                            style="@style/SongNameStyle"
+                            android:text="@string/songName19" />
+
+                        <TextView
+                            style="@style/SingerStyle"
+                            android:text="@string/singer19" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/SubTitleSmallSmallLinearLayout">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/sub_linearLayout_imageView_height"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/image21" />
+
+                        <TextView
+                            style="@style/SongNameStyle"
+                            android:text="@string/songName20" />
+
+                        <TextView
+                            style="@style/SingerStyle"
+                            android:text="@string/singer20" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/SubTitleSmallSmallLinearLayout">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/sub_linearLayout_imageView_height"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/image22" />
+
+                        <TextView
+                            style="@style/SongNameStyle"
+                            android:text="@string/songName21" />
+
+                        <TextView
+                            style="@style/SingerStyle"
+                            android:text="@string/singer21" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!--part 1 end here-->
+            </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>

@@ -1,0 +1,108 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SubjectBar">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginRight">@dimen/subject_view_marginRight</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/subject_bar_text_size</item>
+        <item name="android:background">@color/color_white</item>
+    </style>
+
+    <style name="Advertise">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/image_topAndBottom_height</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="SongNameStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/songName_layout_margin_topAndBottom</item>
+        <item name="android:layout_marginBottom">@dimen/songName_layout_margin_topAndBottom</item>
+        <item name="android:lines">2</item>
+    </style>
+
+    <style name="SingerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/sub_linearLayout_textView_height"
+    android:maxLines="1"
+
+    <style name="SubTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/subTitle_margin_topAndBottom</item>
+        <item name="android:layout_marginBottom">@dimen/subTitle_margin_topAndBottom</item>
+        <item name="android:textSize">@dimen/subTitle_textSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SubTitleLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/subTitle_linearLayout_margin_top</item>
+        <item name="android:paddingLeft">@dimen/SubTitleLinearLayout_padding</item>
+        <item name="android:paddingRight">@dimen/SubTitleLinearLayout_padding</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/color_white</item>
+    </style>
+
+    <style name="SubTitleSmallLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/SubTitleLinearLayout_padding</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="SubTitleSmallSmallLinearLayout">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:orientation">vertical</item>
+    <item name="android:paddingLeft">@dimen/SubTitleLinearLayout_padding</item>
+    <item name="android:paddingRight">@dimen/SubTitleLinearLayout_padding</item>
+</style>
+
+    <style name="RankingRelativeLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/relativeLayout_paddingLeft</item>
+        <item name="android:layout_marginBottom">@dimen/relativeLayout_marginBottom</item>
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+    <style name="RankingImageStyle">
+        <item name="android:layout_width">@dimen/sub_linearLayout_imageView_width</item>
+        <item name="android:layout_height">@dimen/sub_linearLayout_imageView_height</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="RankingSongAndSingerStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="RankingRelativeTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

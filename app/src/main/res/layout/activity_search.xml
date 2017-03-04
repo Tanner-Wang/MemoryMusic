@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/all_page_background"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.memorymusic.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/home_activity"
+            style="@style/SubjectBar"
+            android:text="@string/subject_home" />
+
+        <TextView
+            android:id="@+id/ranking_activity"
+            style="@style/SubjectBar"
+            android:text="@string/subject_ranking" />
+
+        <TextView
+            android:id="@+id/mv_activity"
+            style="@style/SubjectBar"
+            android:text="@string/subject_mv" />
+
+        <TextView
+            android:id="@+id/myMusic_activity"
+            style="@style/SubjectBar"
+            android:text="@string/subject_my_music" />
+
+        <ImageButton
+            android:id="@+id/search_activity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_white"
+            android:scaleType="center"
+            android:src="@drawable/search" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/search_linearLayout_layoutHeight"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:src="@drawable/search"
+            android:layout_width="@dimen/search_image_layoutWidth"
+            android:layout_height="match_parent"
+            android:padding="@dimen/search_image_padding"
+            android:scaleType="centerCrop"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/editTextSize"
+            android:gravity="center_vertical"
+            android:background="@color/color_white"
+            android:hint="@string/editText"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:text="@string/cancel_button"/>
+
+    </LinearLayout>
+
+</LinearLayout>

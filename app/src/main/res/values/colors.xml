@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9800</color>
+    <color name="colorPrimaryDark">#F57C00</color>
+    <color name="colorAccent">#689F38</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="all_page_background">#EEEEEE</color>
+    <color name="myMusic_showText_background">#81C784</color>
+</resources>

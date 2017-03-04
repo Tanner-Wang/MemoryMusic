@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="subTitle_linearLayout_margin_top">12dp</dimen>
+    <dimen name="subTitle_margin_topAndBottom">8dp</dimen>
+    <dimen name="subTitle_textSize">24sp</dimen>
+    <dimen name="SubTitleLinearLayout_padding">3dp</dimen>
+    <dimen name="advertise_marginTop">12dp</dimen>
+    <dimen name="songName_layout_margin_topAndBottom">3dp</dimen>
+    <dimen name="image_topAndBottom_height">96dp</dimen>
+    <!--subject bar -->
+    <dimen name="subject_view_marginRight">2dp</dimen>
+    <dimen name="subject_bar_text_size">18sp</dimen>
+    <!--  sub_linearLayout_image -->
+    <dimen name="sub_linearLayout_imageView_width">92dp</dimen>
+    <dimen name="sub_linearLayout_imageView_height">78dp</dimen>
+    <!--search-->
+    <dimen name="search_image_padding">8dp</dimen>
+    <dimen name="search_image_layoutWidth">30dp</dimen>
+    <dimen name="search_linearLayout_layoutHeight">40dp</dimen>
+    <dimen name="editTextSize">11dp</dimen>
+    <!--ranking-->
+    <dimen name="relativeLayout_paddingLeft">3dp</dimen>
+    <dimen name="relativeLayout_marginBottom">8dp</dimen>
+    <!--my music-->
+    <dimen name="songList_textSize">30sp</dimen>
+    <dimen name="album_textSize">30sp</dimen>
+    <dimen name="musician_textSize">30sp</dimen>
+
+
+</resources>

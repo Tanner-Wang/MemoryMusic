@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Memory Music</string>
+    <string name="subject_home">Home</string>
+    <string name="subject_ranking">Ranking</string>
+    <string name="subject_mv">MV</string>
+    <string name="subject_my_music">My Music</string>
+    <string name="subject_playing">Playing</string>
+    <string name="subject_search">Search</string>
+
+    <!--Home activity-->
+
+    <string name="recommend_for_you">Recommend For You</string>
+    <string name="original_recommendation">Original Recommendation</string>
+    <string name="songName1">钢琴后摆----【耳朵的春天】</string>
+    <string name="singer1">二狗子</string>
+    <string name="songName2">倦听后摇之---【Minimalism]</string>
+    <string name="singer2">Jo</string>
+    <string name="songName3">氛围空间音乐</string>
+    <string name="singer3">TM</string>
+    <string name="songName4">（献给不爱学习的你）</string>
+    <string name="singer4">坎特伯雷</string>
+    <string name="songName5">春日·治愈纯音乐</string>
+    <string name="singer5">小肴</string>
+    <string name="songName6">后摇</string>
+    <string name="singer6">花之春眠</string>
+    <string name="songName7">一支曲·一首歌·一场梦</string>
+    <string name="singer7">圆圆她娘</string>
+    <string name="songName8">提琴之歌</string>
+    <string name="singer8">妞妞</string>
+    <string name="songName9">古典</string>
+    <string name="singer9">七步</string>
+    <string name="songName10">The Silent Ballet Volume One</string>
+    <string name="singer10">Ambient</string>
+    <string name="songName11">心灵休憩的角落</string>
+    <string name="singer11">香草菲菲</string>
+    <string name="songName12">【立春】小提琴的颤动</string>
+    <string name="singer12">延麒</string>
+
+
+    <!--Ranking activity-->
+        <!--Memory ranking-->
+    <string name="memory_ranking">Memory Ranking</string>
+            <!--popular_ranking-->
+    <string name="popular_ranking">Popular Ranking</string>
+    <string name="Psong1">1.song1_name</string>
+    <string name="Psong2">2.song2_name</string>
+    <string name="Psong3">3.song3_name</string>
+            <!--new_songs_ranking-->
+    <string name="new_songs_ranking">New Songs Ranking</string>
+    <string name="Nsong1">1.song1_name</string>
+    <string name="Nsong2">2.song2_name</string>
+    <string name="Nsong3">3.song3_name</string>
+            <!--original_ranking-->
+    <string name="original_ranking">Original Ranking</string>
+    <string name="Osong1">1.song1_name</string>
+    <string name="Osong2">2.song2_name</string>
+    <string name="Osong3">3.song3_name</string>
+    <!--My music activity-->
+    <string name="song_list">Song List</string>
+    <string name="album">Album</string>
+    <string name="musician">Musician</string>
+    <string name="showText1">Song list will be showed here……</string>
+    <string name="showText2">Album will be showed here……</string>
+    <string name="showText3">Musician will be showed here……</string>
+    <!--MV activity-->
+    <string name="recommendation">Recommendation</string>
+    <string name="up_to_date">Up To Date</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="songName13">好听 轻音乐</string>
+    <string name="singer13">情迷不列颠</string>
+    <string name="songName14">可以看书听的音乐</string>
+    <string name="singer14">perrin</string>
+    <string name="songName15">鹿哥勇怼窥私者</string>
+    <string name="singer15">鹿晗</string>
+    <string name="songName16">催更神曲来啦</string>
+    <string name="singer16">上海彩虹室内合唱团</string>
+    <string name="songName17">泰妍_Fine_Music_Video</string>
+    <string name="singer17">泰妍</string>
+    <string name="songName18">一起去冒险（手游《龙之谷》主题曲</string>
+    <string name="singer18">洛天依</string>
+    <string name="songName19">Darkest Before Dawn</string>
+    <string name="singer19">三浦大知</string>
+    <string name="songName20">Green Light</string>
+    <string name="singer20">Lorde</string>
+    <string name="songName21">繁华（电视剧《三生三世十里桃花》插曲）</string>
+    <string name="singer21">董贞</string>
+
+    <!--Search activity-->
+<string name="editText">Search songs</string>
+    <string name="cancel_button">Cancel</string>
+
+
+</resources>
